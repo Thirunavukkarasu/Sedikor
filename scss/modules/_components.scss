@@ -1,0 +1,10 @@
+/* Carousel */
+
+.carousel{
+	margin-top:30px;
+}
+
+.carousel img{
+	padding:3px;
+	@include add-border(1px, #cccccc, all);
+}

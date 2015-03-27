@@ -1,0 +1,25 @@
+/* Navbar */
+
+.navbar{
+	width          : 100%;
+	border-color   : #e7e7e7;
+	min-height     : 60px;
+	background     : #f2f0f0;
+	padding-bottom : 24px !important;
+	padding-top    : 20px !important;	
+	
+	a{
+		color          : #85423f !important;
+		font-size      : 20px;
+	}
+	.navbar-brand{
+		padding-top: 0px !important;
+	}
+	@include add-border(20px,$primary-color, top);
+}
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus,.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus{
+	background: #e2827e !important;
+	color:#fff !important;
+	@include border-radius(6px);
+}
